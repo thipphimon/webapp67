@@ -1,0 +1,3 @@
+const matces = (obj,source) => Object.keys(source).every(key => obj.hasOwnProperty(key) && obj[key] === source[key]); //objตัวแปร sourceค่า
+console.log(matces({name: 'Yoye' , color: 'Blue' , ring :true },{name: 'Yoye' , ring :true })); //true เพราะอัน2มีอยู่ในอันแรก
+console.log(matces({color: 'Blue' , ring :true },{name: 'Yoye' , color: 'Blue' , ring :true })); //falseเพราะอันสองไม่มีอยู๋ในอันแรก
