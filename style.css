@@ -1,0 +1,48 @@
+body{
+    background-image: url(00.jpg);
+    color: black;
+    text-align: center;
+}
+table{
+    text-align: center;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+}
+button{
+    border: 2px solid rgb(240, 68, 97);
+    background-color: rgb(231, 101, 123);
+    padding: 4px;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.name{
+    color: black;
+    background-color: rgb(231, 101, 123);
+}
+th,tr,td{
+    padding: 10px;
+    border-bottom: 1px black;
+    border-top: 1px black;
+}
+tr,td{
+    border-bottom: 1px black;
+}
+.in{
+    padding: 8px;
+    border-radius: 15px;
+}
+.home{
+    padding: 8px;
+    border-radius: 15px;
+}
+.save{
+    padding: 8px;
+    border-radius: 15px;
+    border: 2px solid rgb(240, 68, 97);
+    background-color: rgb(231, 101, 123);
+}
